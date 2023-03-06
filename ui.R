@@ -58,8 +58,14 @@ viz_tab <- tabPanel(
       slider_widget
     ),
     main_panel_plot
+  ), 
+  fluidPage(
+    # Include a Markdown file!
+    includeMarkdown("ChartInfo.Rmd")
   )
 )
+
+
 
 ui <- navbarPage(
   # Select Theme

@@ -1,0 +1,9 @@
+---
+title: "Chart Info"
+output: html_document
+date: "2023-03-06"
+---
+
+## Channge of co2/capita over time
+
+This chart displays the change of CO2 per capita over time. There is an option to filter which countries are visible and from which time frame data is displayed. For an overwhelming majority of the individual geographical regions, we see an increase in CO2 emission per capita, which is measured in kilograms of CO2 per USD of market value. This is an important conclusion, showing that the CO2 cost per dollar of production has increased over time, leading to an exponential increase in CO2 emissions (an overwhelming cause of the climate crisis)
