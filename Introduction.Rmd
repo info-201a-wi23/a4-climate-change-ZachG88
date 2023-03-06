@@ -1,0 +1,37 @@
+---
+title: "Introduction"
+output: html_document
+date: "2023-03-06"
+---
+
+## Introduction
+
+
+The data set we are using in this project is diverse and can be used to display many conclusions related to climate change. For my shiny app, I am choosing to show the rise of gdp per capita across certain time frames for certain countries. 
+
+This data set is entitled "The complete *Our World in Data* CO2 and Greenhouse Gas Emissions dataset". Our World in Data is an online scientific publication focusing on large global problems such as poverty, disease, hunger, climate change, war, existential risks, and inequality. They compile data sets like these to display large problems that are occurring across the globe. As climate change is an issue that affects every human, this data set in particular has an important place in data analysis. This data was collected and generated through the use of smaller data sets and processing steps. Data sets like "Statistical review of world energy (BP)" and "International energy data (EIA)" were used along with ingestion/processing code to compile the data set that is used throughout this project. Considering this method of data compilation, it is understandable why there are "NA" values for certain countries, dates, and variables. The reason for data collection draws back to the overall mission of *Our World in Data* : To make the knowledge on the big problems accessible and understandable. Climate change, especially within the current political climate, can be a big, confusing concept. But when the real data is broken down into smaller, more accessible pieces, meaning and understanding follow. Apart from the data set missing key values, one of the big limitations I see is inaccuracy in reporting/collecting of data. Considering there are data points ranging back to the 1750's one must speculate how accurate the data is considering they had much different technology and scope of the issue of climate change. With all of this in mind, there are many insightful conclusions we can draw from the data.
+
+# Data insights
+
+- What is the average CO2 emissions per year globally (1750-2021) ?
+
+    6385.772 million tonnes per year
+    
+- Which country has the lowest overall average recorded CO2 emissions ?
+
+    Tuvalu has the lowest overall yearly co2 emission average with around 0.00104 million tonnes per year
+    
+- Which country has the highest overall average recorded CO2 emissions ?
+
+    China has the highest overall yearly co2 emission average with around 2060.767 million tonnes per year
+    
+- Over the last 100 years, how has the global co2 per capita changed ? 
+  
+    From 1021 to 2021, the global co2 per capita has increased from 1.479 tonnes per person to 4.888 tonnes per person, an increase of 3.409 tonnes per person 
+    
+- Over the last 100 years, how has the global co2 per gdp changed ? 
+
+    From 1021 to 2021, the global co2 per gdp has increased from 0.324 kg per dollar to 0.714 kg per dollar , an increase of 0.39 kg per dollar
+    
+    
+Based on this information, we can see the vast increase of Co2 over the past 100 years. Especially how it relates to the global Gross Domestic Product (GDP), or the monetary market value of goods produced and sold throughout the world. Although GDP undoubtedly has steadily increased since 1750, the C02 emissions have also increased, meaning for every dollar produces, more and more CO2 is being emitted, an important conclusion when considering solutions so the climate crisis. 
